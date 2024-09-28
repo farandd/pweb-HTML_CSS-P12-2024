@@ -115,6 +115,10 @@ nav ul li a:hover {
   margin-top: 10px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .welcome h2 span {
   color: #6ec207;
 }
@@ -147,6 +151,7 @@ nav ul li a:hover {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   animation: fadeIn 1s ease-in-out;
+  scroll-margin-top: 200px;
 }
 
 .Tentang h3 {
@@ -170,6 +175,7 @@ nav ul li a:hover {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   animation: fadeIn 1s ease-in-out;
+  scroll-margin-top: 200px;
 }
 
 .galeri h3 {
@@ -213,6 +219,7 @@ nav ul li a:hover {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   animation: fadeIn 1s ease-in-out;
+  scroll-margin-top: 200px;
 }
 
 .layanan h3 {
