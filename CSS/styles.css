@@ -12,7 +12,7 @@ body {
   font-family: 'Poppins', sans-serif;
   line-height: 1.6;
   background-color: #f4f4f4;
-  padding: 0; /* Menghilangkan padding default */
+  padding: 0; 
   animation: fadeIn 1s ease-in-out;
 }
 
@@ -30,7 +30,7 @@ header {
   border-bottom: 2px solid #6ec207;
   padding: 20px 0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  margin-bottom: 0; /* Menghilangkan margin default */
+  margin-bottom: 0; 
 }
 
 .Header {
@@ -90,7 +90,7 @@ nav ul li a:hover {
   background-color: white;
   flex-direction: column;
   line-height: 1.2;
-  margin-bottom: 0; /* Menghilangkan margin default */
+  margin-bottom: 0; 
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -142,7 +142,7 @@ nav ul li a:hover {
 .Tentang {
   background-color: white;
   padding: 40px 20px;
-  margin-bottom: 0; /* Menghilangkan margin default */
+  margin-bottom: 0; 
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   animation: fadeIn 1s ease-in-out;
@@ -166,7 +166,7 @@ nav ul li a:hover {
 .galeri {
   background-color: white;
   padding: 40px 20px;
-  margin-bottom: 0; /* Menghilangkan margin default */
+  margin-bottom: 0; 
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   animation: fadeIn 1s ease-in-out;
@@ -188,13 +188,13 @@ nav ul li a:hover {
 }
 
 .galeri-item {
-  width: 200px; /* Perbesar lebar elemen galeri */
-  height: 300px; /* Perbesar tinggi elemen galeri */
+  width: 200px; 
+  height: 300px; 
   background-color: #e0e0e0;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s; /* Animasi untuk elemen galeri */
+  transition: transform 0.2s; 
 }
 
 .galeri-item img {
@@ -204,13 +204,13 @@ nav ul li a:hover {
 }
 
 .galeri-item:hover img {
-  transform: scale(1.1); /* Memperbesar gambar saat di-hover */
+  transform: scale(1.1); 
 }
 
 .layanan {
   background-color: white;
   padding: 40px 20px;
-  margin-bottom: 0; /* Menghilangkan margin default */
+  margin-bottom: 0; 
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   animation: fadeIn 1s ease-in-out;
@@ -248,7 +248,7 @@ nav ul li a:hover {
 .servis-item {
   margin-bottom: 20px;
   width: 80%;
-  transition: transform 0.2s; /* Animasi untuk elemen layanan */
+  transition: transform 0.2s; 
 }
 
 .servis-item:hover {
@@ -275,11 +275,11 @@ nav ul li a:hover {
 .testimoni {
   background-color: white;
   padding: 40px 20px;
-  margin-bottom: 0; /* Menghilangkan margin default */
+  margin-bottom: 0; 
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   animation: fadeIn 1s ease-in-out;
-  margin-bottom: 0; /* Menghilangkan margin bawah */
+  margin-bottom: 0; 
 }
 
 .testimoni h3 {
@@ -302,7 +302,7 @@ nav ul li a:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   max-width: 300px;
   text-align: center;
-  transition: transform 0.2s; /* Animasi untuk elemen testimoni */
+  transition: transform 0.2s;
 }
 
 .testimoni-box:hover {
@@ -323,7 +323,7 @@ footer {
   color: white;
   text-align: center;
   padding: 20px 0;
-  margin-top: 0; /* Menghilangkan margin default */
+  margin-top: 0; 
   position: relative;
   width: 100%;
 }
@@ -364,13 +364,13 @@ footer {
 .kontak {
   background-color: white;
   padding: 40px 20px;
-  margin-bottom: 0; /* Menghilangkan margin default */
+  margin-bottom: 0; 
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   animation: fadeIn 1s ease-in-out;
   scroll-margin-top: 200px;
   text-align: center;
-  margin-top: 0; /* Menghilangkan margin atas */
+  margin-top: 0; 
 }
 
 .kontak h3 {
@@ -392,7 +392,7 @@ footer {
 }
 
 .contact-info {
-  margin-top: 20px; /* Menambahkan margin atas untuk membuatnya sejajar dengan form */
+  margin-top: 20px; 
 }
 
 .contact-info p {
