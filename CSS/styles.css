@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   line-height: 1.6;
@@ -27,10 +31,6 @@ header {
   padding: 20px 0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin-bottom: 0; /* Menghilangkan margin default */
-  position: fixed; /* Membuat header tetap terlihat saat di-scroll */
-  top: 0;
-  width: 100%;
-  z-index: 1000; /* Menambahkan z-index agar header berada di atas elemen lainnya */
 }
 
 .Header {
@@ -95,7 +95,6 @@ nav ul li a:hover {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   animation: slideIn 1s ease-in-out;
-  margin-top: 80px; /* Menambahkan margin-top untuk menghindari tumpang tindih dengan header */
 }
 
 @keyframes slideIn {
@@ -113,10 +112,6 @@ nav ul li a:hover {
   font-size: 48px;
   margin-bottom: 20px;
   margin-top: 10px;
-}
-
-html {
-  scroll-behavior: smooth;
 }
 
 .welcome h2 span {
@@ -164,7 +159,7 @@ html {
 .Tentang p {
   text-align: center;
   margin: 0 auto 30px auto;
-  font-size: 20px;
+  font-size: 18px;
   max-width: 800px;
 }
 
@@ -284,6 +279,7 @@ html {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   animation: fadeIn 1s ease-in-out;
+  margin-bottom: 0; /* Menghilangkan margin bawah */
 }
 
 .testimoni h3 {
@@ -363,4 +359,102 @@ footer {
   background-color: white;
   color: black;
   border: 2px solid #4CAF50;
+}
+
+.kontak {
+  background-color: white;
+  padding: 40px 20px;
+  margin-bottom: 0; /* Menghilangkan margin default */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s ease-in-out;
+  scroll-margin-top: 200px;
+  text-align: center;
+  margin-top: 0; /* Menghilangkan margin atas */
+}
+
+.kontak h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #6ec207;
+}
+
+.kontak-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.contact-info, .contact-form {
+  width: 45%;
+  max-width: 500px;
+}
+
+.contact-info {
+  margin-top: 20px; /* Menambahkan margin atas untuk membuatnya sejajar dengan form */
+}
+
+.contact-info p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.contact-info img {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.contact-info button {
+  background-color: #6ec207;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-info button:hover {
+  background-color: #4CAF50;
+}
+
+.contact-info button a {
+  text-decoration: none;
+  color: white;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.contact-form button {
+  background-color: #6ec207;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #4CAF50;
 }
