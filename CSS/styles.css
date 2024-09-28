@@ -19,7 +19,7 @@ body {
   to {
       opacity: 1;
   }
-}
+}te
 
 header {
   background-color: #fff;
@@ -136,6 +136,7 @@ html {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   animation: fadeIn 1s ease-in-out;
+  scroll-margin-top: 200px;
 }
 
 .Tentang h3 {
