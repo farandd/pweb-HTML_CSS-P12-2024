@@ -8,7 +8,7 @@ body {
   font-family: 'Poppins', sans-serif;
   line-height: 1.6;
   background-color: #f4f4f4;
-  padding: 20px;
+  padding: 0; /* Menghilangkan padding default */
   animation: fadeIn 1s ease-in-out;
 }
 
@@ -26,6 +26,7 @@ header {
   border-bottom: 2px solid #6ec207;
   padding: 20px 0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 0; /* Menghilangkan margin default */
 }
 
 .Header {
@@ -37,6 +38,15 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+nav .logo {
+  display: flex;
+  align-items: center;
+}
+
+nav .logo img {
+  margin-right: 10px;
 }
 
 nav h1 {
@@ -76,7 +86,7 @@ nav ul li a:hover {
   background-color: white;
   flex-direction: column;
   line-height: 1.2;
-  margin-bottom: 40px;
+  margin-bottom: 0; /* Menghilangkan margin default */
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -128,7 +138,7 @@ nav ul li a:hover {
 .Tentang {
   background-color: white;
   padding: 40px 20px;
-  margin-bottom: 40px;
+  margin-bottom: 0; /* Menghilangkan margin default */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   animation: fadeIn 1s ease-in-out;
@@ -151,7 +161,7 @@ nav ul li a:hover {
 .galeri {
   background-color: white;
   padding: 40px 20px;
-  margin-bottom: 40px;
+  margin-bottom: 0; /* Menghilangkan margin default */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   animation: fadeIn 1s ease-in-out;
@@ -194,7 +204,7 @@ nav ul li a:hover {
 .layanan {
   background-color: white;
   padding: 40px 20px;
-  margin-bottom: 40px;
+  margin-bottom: 0; /* Menghilangkan margin default */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   animation: fadeIn 1s ease-in-out;
@@ -258,7 +268,7 @@ nav ul li a:hover {
 .testimoni {
   background-color: white;
   padding: 40px 20px;
-  margin-bottom: 40px;
+  margin-bottom: 0; /* Menghilangkan margin default */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   animation: fadeIn 1s ease-in-out;
@@ -305,7 +315,7 @@ footer {
   color: white;
   text-align: center;
   padding: 20px 0;
-  margin-top: 100px;
+  margin-top: 0; /* Menghilangkan margin default */
   position: relative;
   width: 100%;
 }
