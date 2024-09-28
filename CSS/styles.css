@@ -1,150 +1,313 @@
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-      font-family: Arial, sans-serif;
-  }
-  
-  header {
-      background-color: #f2f2f2;
-      padding: 20px 0;
-      border-bottom: 2px solid #ddd;
-  }
-  
-  .container {
-      width: 90%;
-      margin: 0 auto;
-  }
-  
-  nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-  }
-  
-  nav h1 {
-      font-size: 24px;
-  }
-  
-  nav h1 span {
-      color: #43d049;
-  }
-  
-  nav ul {
-      display: flex;
-      list-style: none;
-  }
-  
-  nav ul li {
-      margin-left: 20px;
-  }
-  
-  nav ul li a {
-      text-decoration: none;
-      color: #000;
-  }
-  
-  .hero {
-      text-align: center;
-      padding: 50px 0;
-  }
-  
-  .hero h2 {
-      font-size: 36px;
-  }
-  
-  .hero h2 span {
-      color: #43d049;
-  }
-  
-  .hero button {
-      background-color: #43d049;
-      color: white;
-      border: none;
-      padding: 10px 20px;
-      cursor: pointer;
-      border-radius: 5px;
-      margin-top: 20px;
-  }
-  
-  .social-icons {
-      margin-top: 20px;
-  }
-  
-  .social-icons a {
-      margin: 0 10px;
-  }
-  
-  .gallery {
-      text-align: center;
-      margin: 50px 0;
-  }
-  
-  .gallery h3 {
-      font-size: 24px;
-      margin-bottom: 20px;
-  }
-  
-  .gallery-grid {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-  }
-  
-  .gallery-item {
-      width: 150px;
-      height: 200px;
-      background-color: #e0e0e0;
-  }
-  
-  .services {
-      background-color: #f9f9f9;
-      padding: 50px 0;
-  }
-  
-  .services h3 {
-      text-align: center;
-      font-size: 24px;
-      margin-bottom: 20px;
-  }
-  
-  .services-info {
-      width: 90%;
-      margin: 0 auto;
-      text-align: center;
-  }
-  
-  .service-details {
-      margin-top: 20px;
-  }
-  
-  .service-item {
-      margin-bottom: 20px;
-  }
-  
-  .service-item span {
-      display: block;
-      margin-bottom: 5px;
-  }
-  
-  .progress-bar {
-      background-color: #ddd;
-      height: 10px;
-      border-radius: 5px;
-  }
-  
-  .progress {
-      background-color: #43d049;
-      height: 100%;
-      border-radius: 5px;
-  }
-  
-  .services-image {
-      width: 100%;
-      height: 200px;
-      background-color: #e0e0e0;
-      margin-top: 30px;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+header {
+  background-color: #fff;
+  border-bottom: 2px solid #6ec207;
+  padding: 20px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Header {
+  width: 90%;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 {
+  font-size: 24px;
+}
+
+nav h1 span {
+  color: #6ec207;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  padding: 5px 10px;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #6ec207;
+}
+
+.welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  text-align: center;
+  background-color: white;
+  flex-direction: column;
+  line-height: 1.2;
+  margin-bottom: 40px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.welcome h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.welcome h2 span {
+  color: #6ec207;
+}
+
+.welcome button {
+  padding: 13px 15px;
+  background-color: #6ec207;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.welcome button a {
+  text-decoration: none;
+  color: white;
+}
+
+.welcome button:hover {
+  background-color: white;
+  color: #6ec207;
+  border: 2px solid #6ec207;
+}
+
+.Tentang {
+  background-color: white;
+  padding: 40px 20px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Tentang h3 {
+  text-align: center;
+  font-size: 30px;
+  color: #6ec207;
+  margin-bottom: 20px;
+}
+
+.Tentang p {
+  text-align: center;
+  margin: 0 auto 30px auto;
+  font-size: 20px;
+  max-width: 800px;
+}
+
+.galeri {
+  background-color: white;
+  padding: 40px 20px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.galeri h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #6ec207;
+}
+
+.galeri-grid {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.galeri-item {
+  width: 150px;
+  height: 200px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.galeri-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.2s; /* Animasi untuk elemen galeri */
+}
+
+.galeri-item img:hover {
+  transform: scale(1.1);
+}
+
+.layanan {
+  background-color: white;
+  padding: 40px 20px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.layanan h3 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #6ec207;
+}
+
+.info-layanan p {
+  font-size: 18px;
+  margin-top: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.info-layanan {
+  width: 90%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.detail-servis {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.servis-item {
+  margin-bottom: 20px;
+  width: 80%;
+  transition: transform 0.2s; /* Animasi untuk elemen layanan */
+}
+
+.servis-item:hover {
+  transform: scale(1.05);
+}
+
+.servis-item span {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.progress-bar {
+  background-color: rgb(168, 62, 62);
+  height: 5px;
+  border-radius: 5px;
+}
+
+.progress {
+  background-color: #6ec207;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.testimoni {
+  background-color: white;
+  padding: 40px 20px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimoni h3 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #6ec207;
+}
+
+.testimoni-grid {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.testimoni-box {
+  background-color: #e0e0e0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  text-align: center;
+}
+
+.testimoni-box p {
+  margin-bottom: 10px;
+}
+
+.testimoni-box span {
+  display: block;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #6ec207;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 100px;
+  position: relative;
+  width: 100%;
+}
+
+.footer-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-grid h3 {
+  margin-bottom: 20px;
+}
+
+/* Animasi untuk tombol */
+.btn-animate {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.btn-animate:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+}
