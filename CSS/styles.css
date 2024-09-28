@@ -31,6 +31,10 @@ header {
   padding: 20px 0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin-bottom: 0; 
+  position: fixed; /* Menambahkan posisi tetap */
+  top: 0; /* Menetapkan posisi di bagian atas */
+  width: 100%; /* Menetapkan lebar penuh */
+  z-index: 1000; /* Menetapkan z-index untuk memastikan header berada di atas elemen lainnya */
 }
 
 .Header {
@@ -95,6 +99,7 @@ nav ul li a:hover {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   animation: slideIn 1s ease-in-out;
+  margin-top: 80px; /* Menambahkan margin atas untuk menghindari konten tertutup oleh header */
 }
 
 @keyframes slideIn {
