@@ -19,7 +19,7 @@ body {
   to {
       opacity: 1;
   }
-}te
+}
 
 header {
   background-color: #fff;
@@ -100,12 +100,12 @@ nav ul li a:hover {
   margin-top: 10px;
 }
 
-.welcome h2 span {
-  color: #6ec207;
-}
-
 html {
   scroll-behavior: smooth;
+}
+
+.welcome h2 span {
+  color: #6ec207;
 }
 
 .welcome button {
@@ -160,6 +160,7 @@ html {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   animation: fadeIn 1s ease-in-out;
+  scroll-margin-top: 200px;
 }
 
 .galeri h3 {
@@ -203,6 +204,7 @@ html {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   animation: fadeIn 1s ease-in-out;
+  scroll-margin-top: 200px;
 }
 
 .layanan h3 {
