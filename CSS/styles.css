@@ -9,6 +9,16 @@ body {
   line-height: 1.6;
   background-color: #f4f4f4;
   padding: 20px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
 }
 
 header {
@@ -70,6 +80,18 @@ nav ul li a:hover {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: slideIn 1s ease-in-out;
+}
+
+@keyframes slideIn {
+  from {
+      transform: translateY(-50px);
+      opacity: 0;
+  }
+  to {
+      transform: translateY(0);
+      opacity: 1;
+  }
 }
 
 .welcome h2 {
@@ -109,6 +131,7 @@ nav ul li a:hover {
   margin-bottom: 40px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s ease-in-out;
 }
 
 .Tentang h3 {
@@ -131,6 +154,7 @@ nav ul li a:hover {
   margin-bottom: 40px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s ease-in-out;
 }
 
 .galeri h3 {
@@ -154,13 +178,13 @@ nav ul li a:hover {
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s; /* Animasi untuk elemen galeri */
 }
 
 .galeri-item img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.2s; /* Animasi untuk elemen galeri */
 }
 
 .galeri-item img:hover {
@@ -173,6 +197,7 @@ nav ul li a:hover {
   margin-bottom: 40px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s ease-in-out;
 }
 
 .layanan h3 {
@@ -236,6 +261,7 @@ nav ul li a:hover {
   margin-bottom: 40px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s ease-in-out;
 }
 
 .testimoni h3 {
@@ -258,6 +284,11 @@ nav ul li a:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   max-width: 300px;
   text-align: center;
+  transition: transform 0.2s; /* Animasi untuk elemen testimoni */
+}
+
+.testimoni-box:hover {
+  transform: scale(1.05);
 }
 
 .testimoni-box p {
